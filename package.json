@@ -1,0 +1,9 @@
+{
+  "name": "scanoss.ts",
+  "version": "1.0.0",
+  "description": "The SCANOSS JS package provides a simple, easy to consume library for interacting with SCANOSS APIs/Engine.",
+  "main": "./lib/scanner.js",
+  "repository": "git@github.com:isasmendiagus/PoC-Ts-Library.git",
+  "author": "Agustin <isasmendi.agus@gmail.com>",
+  "license": "MIT"
+}
