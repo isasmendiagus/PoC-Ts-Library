@@ -2,8 +2,15 @@
   "name": "scanoss.ts",
   "version": "1.0.0",
   "description": "The SCANOSS JS package provides a simple, easy to consume library for interacting with SCANOSS APIs/Engine.",
-  "main": "./lib/scanner.js",
+  "main": "./lib/scanner/index.js",
   "repository": "git@github.com:isasmendiagus/PoC-Ts-Library.git",
   "author": "Agustin <isasmendi.agus@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "abort-controller": "^3.0.0",
+    "form-data": "^4.0.0",
+    "node-fetch": "2.6.1",
+    "p-queue": "6.6.2",
+    "sort-paths": "^1.1.1"
+  }
 }
